@@ -10,3 +10,6 @@ variable "skip_final_snapshot" {}
 variable "vpc" {}
 variable "kms_key_id" {}
 variable "storage_encrypted" {}
+
+variable "instance_count" {}
+variable "instance_class" {}
